@@ -39,3 +39,24 @@ Sorted_List=sorted(courses)
 print(Sorted_List)
 Sorted_Nums=sorted(nums)
 print(Sorted_Nums)
+
+
+
+print(min(nums)) #  gets the minimum value in the list 
+print(max(nums)) # gets the max value in the list 
+print(sum(nums))# adds everything in the list 
+
+print(courses.index("social")) # index it fetch us out the index of the particular item in the list 
+
+print("jaamon" in courses)  #in property lets us know whetjer the value is present or not 
+
+
+# for itm in courses:
+#     print(itm)
+
+
+for index, item in enumerate(courses):  # enmuerate gives us the index of the index of the value 
+    print(index,item)
+
+course_str="".join(courses)
+
