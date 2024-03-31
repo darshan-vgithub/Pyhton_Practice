@@ -34,3 +34,8 @@ print(nums)
 nums.sort(reverse=True) # this sorts the whole list in the dessending order 
 print(nums)
 
+# altewrnartive way of getting the sorted list without altering the original list .............................
+Sorted_List=sorted(courses)
+print(Sorted_List)
+Sorted_Nums=sorted(nums)
+print(Sorted_Nums)
